@@ -1,7 +1,7 @@
 WAP to find Fibonnaci series upto n number using function.
 Code:
 #include <stdio.h>
-void printFibonacci(int n)
+void Fibonacci(int n)
 {
     int first = 0, second = 1, next,i;
     for (i = 0; i < n; i++) {
@@ -18,7 +18,7 @@ int main()
     printf("Enter the number of terms: ");
     scanf("%d", &n);
     printf("Fibonacci Series up to %d terms:\n", n);
-    printFibonacci(n);  
+    Fibonacci(n);  
 
     return 0;
 }
