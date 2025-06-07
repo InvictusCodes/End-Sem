@@ -55,8 +55,7 @@ int main()
     printf("Player Name\tTeam\tBest Score\tAverage\n");
 
     for(i = 0; i < n; i++) {
-        printf("%s\t%s\t\t%d\t\t%.2f\n", 
-               crick[i].name, crick[i].country, crick[i].best, crick[i].avg);
+        printf("%s\t%s\t\t%d\t\t%.2f\n",crick[i].name, crick[i].country, crick[i].best, crick[i].avg);
     }
 
     getch();
