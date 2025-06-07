@@ -6,7 +6,7 @@ int main()
 {
     int n, i = 1, sum = 0;
 
-    printf("Enter a positive number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
 
     while (i <= n)
