@@ -1,19 +1,21 @@
 WAP to calculate sum of first n natural numbers using while loop.
 Code
 #include <stdio.h>
+
 int main()
 {
-    int n, sum = 0, i = 0, digits;
-    printf("Enter the number of digits: ");
+    int n, i = 1, sum = 0;
+
+    printf("Enter a positive number: ");
     scanf("%d", &n);
-    printf("\nEnter the digits:\n");
-    while (i < n)
+
+    while (i <= n)
     {
-        scanf("%d", &digits);
-        sum += digits;
+        sum += i;
         i++;
     }
-    printf("\nThe Sum of %d digits is %d\n", n, sum);
+
+    printf("The sum of first %d natural numbers is %d\n", n, sum);
 
     return 0;
 }
