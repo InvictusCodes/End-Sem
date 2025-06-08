@@ -1,7 +1,7 @@
 WAP to cunt the nmber of digits , alphabets ,and special characters in an Input string.
 Code:
 #include <stdio.h>
-
+#include <string.h>
 int main() {
     int digits = 0, alpha = 0, special = 0, i;
     char str[120];
